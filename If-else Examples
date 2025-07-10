@@ -1,0 +1,26 @@
+/*Write a C program to determine whether a given number is negative, positive or zero, using ifelse statements.*/
+
+#include <stdio.h>
+
+int main()
+{
+    int num;
+    
+    printf("Enter a number: ");
+    scanf("%d", &num);
+    
+    if (num == 0)
+    {
+        printf("Entered number is zero.");
+    }
+    else if (num < 0)
+    {
+        printf("Entered number is negative.");
+    }
+    else
+    {
+        printf("Entered number is positive.");
+    }
+    
+    return 0;
+}
